@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CzamurEmu v1.0.exe" version="1.0.0.2" publicKeyToken="48e2c0e3d1c6b58c" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="czamuremu.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CzamurEmu v1.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CzamurEmu v1.0.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CzamurEmu v1.0.exe" size="186848">
+      <assemblyIdentity name="CzamurEmu v1.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>S5B4giyIUKfrb1NX2O03kgo6tMLlOEMfV7KD4utKRig=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CzamurEmu v1.0.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="czamuremu.ico" size="174942">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zic/6uivxLaMJOd03A0zPO3Uj7TDbz/zo2/EMeDBAag=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-LNVAT4Q\kubas" issuerKeyHash="0eaa7bb628dda813c846330343861e3ff77de74b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>gXI/HdlpxVcCX1oqNSQjCi3WwRaL5zW9qFEEEXa2hZw=</DigestValue></Reference></SignedInfo><SignatureValue>F+ApYaJnLw09vY52UR0B73vRuQqDGWzPm9WgrIUp80MmJslNepJeJ+wEu/3WBeRKBirAQb0zFHfPeprIqPaacPNGYSirc4QDlb6FDYpXFDVPUdTjGS4AFOA+8rwp2wSE/oKKERx5EcSWJ23lJgiGbe//YUx0nDIyN25hvF4nRNo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>skJmPyNML3cbM8SwpfXmNvahJ7SSgAM8A7Ww6yHAofKvISkg6kdDk/QP+ik6QhauVfub2SyqFK78CdwJ9iB/jpeKa3eawL+HX5cgytRIz469sC4Y1Bh82v+XMhZocvFnaqjU2UzeDhlDp5QMAW0Vy/d2Q0AaV4GkaZSVnYmBixk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9c85b676110451a8bd35e78b16c1d62d0a2324352a5a5f0257c569d91d3f7281" Description="" Url=""><as:assemblyIdentity name="CzamurEmu v1.0.exe" version="1.0.0.2" publicKeyToken="48e2c0e3d1c6b58c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-LNVAT4Q\kubas</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>q88MJemrK8RDg7XD0FWmxH54dPN8Rnlc3VhYMFUC3U0=</DigestValue></Reference></SignedInfo><SignatureValue>bRyGpq+tNB/dDuoA2EaMaB/E+4sXc4KETHSxn3preajLIXFKQBplyGar56u9aibCaWwN0uv189dwLfUYOcYooNYSNDlX4bJT1zO6jBpoNOP7bGU3SbjAWx32lp7xbaFSl+pczWrN48ggeq60A4ooHG9n/zFz6sJWDGKi95a63r4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>skJmPyNML3cbM8SwpfXmNvahJ7SSgAM8A7Ww6yHAofKvISkg6kdDk/QP+ik6QhauVfub2SyqFK78CdwJ9iB/jpeKa3eawL+HX5cgytRIz469sC4Y1Bh82v+XMhZocvFnaqjU2UzeDhlDp5QMAW0Vy/d2Q0AaV4GkaZSVnYmBixk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQbv3x3DGs1p9HMbkcW9v16jANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEwATgBWAEEAVAA0AFEAXABrAHUAYgBhAHMwHhcNMjMwNDA1MTUzMTIxWhcNMjQwNDA0MjEzMTIxWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEwATgBWAEEAVAA0AFEAXABrAHUAYgBhAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALJCZj8jTC93GzPEsKX15jb2oSe0koADPAO1sOshwKHyryEpIOpHQ5P0D/opOkIWrlX7m9ksqhSu/AncCfYgf46Ximt3msC/h1+XIMrUSM+OvbAuGNQYfNr/lzIWaHLxZ2qo1NlM3g4ZQ6eUDAFtFcv3dkNAGleBpGmUlZ2JgYsZAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAfXXGzCSz68/JoQ/6v/nyYuA5pFSgN9/gOEfyWcSUyMW1Wp5/8rjYJWcmid3BUmHbZn6n4uhT9nLHw3lXBAeSFjnUdT1PhxNsz5ulv7n6YRjwsGV7b+JOFIPmeZhL0P2ONJiQdc6TB4uoyPl2YIdOulHmubxewMsCDKcSjS8uah0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
